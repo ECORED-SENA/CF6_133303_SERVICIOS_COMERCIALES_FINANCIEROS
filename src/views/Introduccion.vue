@@ -13,6 +13,32 @@
 
     p.mb-5 Dado lo anterior, la comprensión de las estadísticas y los modelos matemáticos, son las herramientas indispensables para la interpretación de los datos y las metas organizacionales; por lo que los conceptos de:
 
+    .d-flex.flex-wrap.align-items-center.mx-auto.mb-5(style="background-color: #FFEAD8; border-top-right-radius: 112px")
+      img.col-xl-4.mb-4.mb-xl-0.ms-auto.mb-auto.mt-xl-5.mx-auto(src="@/assets/curso/temas/img-1.svg" data-aos="fade-right" style="max-width: 408px")
+      .py-xl-4.mb-0.col-xl-7.p-4(data-aos="fade-left")
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Muestra
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Población
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Tabulación
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Representación de los datos
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | Indicadores, son el insumo necesario para que se identifique de forma prospectiva el cumplimiento y la propuesta de objetivos que conlleven al éxito organizacional
+      img.d-none.d-xl-flex.col-xl-1.mb-auto(src="@/assets/curso/temas/tema5/decorador.svg" style="max-width: 82px")
+
     figure.mb-5(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
