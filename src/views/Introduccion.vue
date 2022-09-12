@@ -36,12 +36,12 @@
           li 
             .lista-ol--cuadro__vineta
               span 5
-            | Indicadores, son el insumo necesario para que se identifique de forma prospectiva el cumplimiento y la propuesta de objetivos que conlleven al éxito organizacional
+            | Indicadores, son el insumo necesario para que se identifique de forma prospectiva el cumplimiento y la propuesta de objetivos que conlleven al éxito organizacional.
       img.d-none.d-xl-flex.col-xl-1.mb-auto(src="@/assets/curso/temas/tema5/decorador.svg" style="max-width: 82px")
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/cLwIxDucqDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>

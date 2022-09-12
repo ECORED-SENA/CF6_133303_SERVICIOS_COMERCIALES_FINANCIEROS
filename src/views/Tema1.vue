@@ -29,6 +29,8 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center(style="color: black") Pública
               p.text-center(style="color: black") Propiedad del Estado.
+                br
+                br
                 |El recurso económico proviene del Estado.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}")
       .col-md-6.col-lg-4.px-2.mb-4
@@ -36,7 +38,10 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center(style="color: black") Privada
-              p.text-center(style="color: black") Propiedad de particular o una sociedad privada. El recurso económico proviene del capital privado.
+              p.text-center(style="color: black") Propiedad de particular o una sociedad privada.
+                br
+                br
+                |El recurso económico proviene del capital privado.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-2.jpg')})`}")
       .col-md-6.col-lg-4.px-2.mb-4
         .tarjeta.tarjeta-slide.arriba.color-primario(style="aspect-ratio: 29/31; border-radius: 6px; background-color: #E3F56C")
@@ -44,6 +49,8 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h4.text-center(style="color: black") Mixta
               p.text-center(style="color: black") Propiedad compartida.
+                br
+                br
                 |El recurso proviene del capital público y privado.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-3.jpg')})`}")
 
@@ -116,7 +123,7 @@
             .col.mb-3.mb-sm-0
               p.text-small Para conocer más sobre el Decreto 957 de 2019. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015. Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.” Le invito a revisar el siguiente documento: 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/COMPUESTO_133303.xlsx')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(href="https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -125,7 +132,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_2 1.2 Reglas y políticas de negocio
     
-    p.mb-5 Establecer las guías y directivas para el cumplimiento de objetivos de la organización es trascendental para su funcionamiento; para ello, encontramos diferentes directrices institucionales que pueden ser permanentes o temporales, como lo son:
+    p.mb-5 Establecer las guías y directivas para el cumplimiento de objetivos de la organización es trascendental para su funcionamiento; para ello, encontramos diferentes #[b directrices institucionales que pueden ser permanentes o temporales, como lo son:]
 
     .d-flex.flex-wrap.align-items-center.mx-auto.mb-5(style="background-color: #FFEAD8; border-top-left-radius: 112px" data-aos="fade-left")
       img.col-xl-5.mb-4.mb-xl-0(src="@/assets/curso/temas/tema1/img-7.png" style="max-width: 505px")
@@ -249,7 +256,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fmsSsN5NDNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

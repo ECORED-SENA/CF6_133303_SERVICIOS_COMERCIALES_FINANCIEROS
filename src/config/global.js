@@ -246,7 +246,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Gráfica ',
+      termino: 'Gráfica',
       significado: 'representación de los datos bajo un esquema.',
     },
     {

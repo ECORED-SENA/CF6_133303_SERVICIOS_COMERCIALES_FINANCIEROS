@@ -10,7 +10,7 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Investiga para hacer el cambio…
+          h2 Investiga para hacer el cambio
         p.mb-4 Relacionar los conceptos sobre identificación de recursos para análisis de información en la organización como estadística, fuentes y técnicas para la recolección de datos, los modelos matemáticos, la tabulación y al análisis de datos para realizar servicios comerciales y financieros.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

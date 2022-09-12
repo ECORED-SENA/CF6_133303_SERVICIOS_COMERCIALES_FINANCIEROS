@@ -11,7 +11,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/xhTb3dSFR2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     Separador
 
@@ -31,7 +31,7 @@
           img(src='@/assets/curso/temas/tema3/img-2.png' style="max-width: 325px;").banner-principal-decorativo-tj
           .d-block(style="margin-top: 6rem")
             .d-flex.justify-content-center
-              h4.mb-4.px-4.py-2(style="background-color: white; border-radius: 30px") Fuentes Primarias
+              h4.mb-4.px-4.py-2(style="background-color: white; border-radius: 30px") Fuentes primarias
             ul.lista-ul--color.mb-4(data-aos="fade-left")
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
@@ -74,7 +74,7 @@
           img(src='@/assets/curso/temas/tema3/img-3.png' style="max-width: 325px;").banner-principal-decorativo-tj
           .d-block(style="margin-top: 6rem")
             .d-flex.justify-content-center
-              h4.mb-4.px-4.py-2(style="background-color: white; border-radius: 30px") Fuentes Secundarias
+              h4.mb-4.px-4.py-2(style="background-color: white; border-radius: 30px") Fuentes secundarias
             ul.lista-ul--color.mb-4(data-aos="fade-left")
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
@@ -122,7 +122,7 @@
           img(src='@/assets/curso/temas/tema3/img-4.png' style="max-width: 325px;").banner-principal-decorativo-tj
           .d-block(style="margin-top: 6rem")
             .d-flex.justify-content-center
-              h4.mb-4.px-4.py-2(style="background-color: white; border-radius: 30px") Fuentes Terciarias
+              h4.mb-4.px-4.py-2(style="background-color: white; border-radius: 30px") Fuentes terciarias
             ul.lista-ul--color.mb-4(data-aos="fade-left")
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
@@ -306,7 +306,7 @@
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-xl-4.pe-xl-3
           h4 Análisis documental
-          p Una diferencia muy notoria entre esta y las otras técnicas que se están tratando, es que en estas últimas se obtienen datos de fuente primaria, en cambio mediante el análisis documental, se recolectan datos de fuentes secundarias.
+          p Una diferencia muy notoria entre esta y las otras técnicas que se están tratando, es que en estas últimas se obtienen datos de fuente primaria, en cambio mediante el análisis documental, #[b se recolectan datos de fuentes secundarias.] 
             |Libros, boletines, revistas, folletos y periódicos se utilizan como fuentes para recolectar datos sobre las variables de interés.
         img.col-xl-8(src='@/assets/curso/temas/tema3/img-8.png')
       
@@ -322,7 +322,7 @@
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-xl-4.pe-xl-3
           h4 Observación experimental
-          p La observación experimental se diferencia de la no experimental, porque elabora datos en condiciones relativamente controladas por el investigador, particularmente, porque este puede manipular la o las variables. Es una poderosa técnica de investigación científica. 
+          p La observación experimental se diferencia de la no experimental, #[b porque elabora datos en condiciones relativamente controladas por el investigador], particularmente, porque este puede manipular la o las variables. Es una poderosa técnica de #[b investigación científica]. 
             br
             br
             |Puede utilizar como instrumento la hoja o ficha de registro de datos.

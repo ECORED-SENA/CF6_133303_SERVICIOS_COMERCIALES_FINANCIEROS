@@ -33,7 +33,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_5_2 5.2 Frecuencias
 
-    p.mb-5 En la medición de los datos obtenidos, la organización y tabulación es primordial para la interpretación estadística, para lo que la repetición de los datos se mide por frecuencias, y estas se deben organizar de acuerdo con la cantidad de datos; por ello, se exponen a continuación las características para la tabulación de los datos bajo el esquema de frecuencias, a saber: 
+    p.mb-5 En la medición de los datos obtenidos, la organización y tabulación es primordial para la interpretación estadística, para lo que #[b la repetición de los datos se mide por frecuencias], y estas se deben organizar de acuerdo con #[b la cantidad de datos]; por ello, se exponen a continuación las características para la tabulación de los datos bajo el esquema de frecuencias, a saber: 
 
     SlyderF.mb-5d-flex.align-items-stretch.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #FED5B1")
@@ -46,28 +46,28 @@
       .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #DBF5CC")
         .p-4.w-100.mb-auto(style="background-color: #85D161; border-top-right-radius: 15px; border-top-left-radius: 15px;")
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema5/sl-2.svg" style="max-width: 130px")
-          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Datos
+          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Frecuencia absoluta
         .p-5.w-100(style="background-color: #DBF5CC; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
           p Cantidad de veces que se repite el dato.
       
       .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #FED5B1")
         .p-4.w-100.mb-auto(style="background-color: #FDAB64; border-top-right-radius: 15px; border-top-left-radius: 15px;")
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema5/sl-3.svg" style="max-width: 130px")
-          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Datos
+          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Frecuencia relativa
         .p-5.w-100(style="background-color: #FED5B1; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
           p Se obtiene de la división del numero de la frecuencia absoluta de una variable y la cantidad total de los datos.
       
       .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #DBF5CC")
         .p-4.w-100.mb-auto(style="background-color: #85D161; border-top-right-radius: 15px; border-top-left-radius: 15px;")
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema5/sl-4.svg" style="max-width: 130px")
-          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Datos
+          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Frecuencia absoluta acumulada
         .p-5.w-100(style="background-color: #DBF5CC; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
           p Se refiere a la acumulación de las variables de la frecuencia absoluta.
       
       .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #FED5B1")
         .p-4.w-100.mb-auto(style="background-color: #FDAB64; border-top-right-radius: 15px; border-top-left-radius: 15px;")
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema5/sl-5.svg" style="max-width: 130px")
-          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Datos
+          h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Porcentaje
         .p-5.w-100(style="background-color: #FED5B1; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
           p Se obtiene al multiplicar la frecuencia relativa de cada variable por 100 y el resultado total debe dar 100%.
         
@@ -85,12 +85,13 @@
 
     .titulo-segundo.color-acento-contenido
       h2#t_5_3 5.3 Gráficos estadísticos
-    p.mb-5 La representación gráfica de la información juega un papel trascendental en el análisis e interpretación de los datos; por ende, coadyuva al lector para la compresión de los resultados. En el siguiente recurso podrá identificar los tipos de gráficas de acuerdo con su uso:
+    p.mb-5 La representación gráfica de la información juega un papel trascendental en el análisis e interpretación de los datos; por ende, #[b coadyuva al lector para la compresión de los resultados]. En el siguiente recurso podrá identificar los tipos de gráficas de acuerdo con su uso:
 
     AcordionA.mb-5.acordeon-a-edit(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.col-xl-11.mx-auto(titulo="Histograma")
         .col-md-7.mb-4.mb-md-0
           p Corresponde a una agrupación de datos.
+            br
             |Sirve para datos cualitativos y cuantitativos.
             br
             |Las barras siempre van unidas.
@@ -102,7 +103,9 @@
       
       .row.col-xl-11.mx-auto(titulo="Polígono de frecuencias")
         .col-md-7.mb-4.mb-md-0
-          p Gráfico que se crea a partir de un histograma de frecuencia. Estos histogramas emplean columnas verticales, para reflejar frecuencias: el polígono de frecuencia es realizado uniendo los puntos de mayor altura de estas columnas.
+          p Gráfico que se crea a partir de un histograma de frecuencia.
+            br
+            |Estos histogramas emplean columnas verticales, para reflejar frecuencias: el polígono de frecuencia es realizado uniendo los puntos de mayor altura de estas columnas.
         .col-md-5
           figure
             img(src='@/assets/curso/temas/tema5/a-2.png')
@@ -123,7 +126,9 @@
       
       .row.col-xl-11.mx-auto(titulo="Tallos y hojas")
         .col-md-7.mb-4.mb-md-0
-          p Es un semigráfico el cual permite presentar la distribución de una variable cuantitativa. Consiste en separar cada dato en el último dígito (que se denomina hoja) y las cifras delanteras restantes (que forman el tallo).
+          p Es un semigráfico el cual permite presentar la distribución de una variable cuantitativa.
+            br
+            |Consiste en separar cada dato en el último dígito (que se denomina hoja) y las cifras delanteras restantes (que forman el tallo).
         .col-md-5
           figure
             img(src='@/assets/curso/temas/tema5/a-5.png')
@@ -167,7 +172,7 @@
       p.order-2.order-xl-1.col-xl-7.pe-xl-4 La necesidad de medición de resultados en las entidades o empresas es necesaria para estar a la vanguardia en el conocimiento sobre las necesidades o servicios que se desarrollan, las cuales son un mundo de oportunidades para cada organización.
         br
         br
-        |Lo anterior debido a que su contexto es cambiante y, además, ponderar la productividad y el impacto es y debe ser su objetivo día a día; por ende, el enfoque del aumento de los resultados siempre debe ser la prioridad; así, los métodos de medición son comúnmente conocidos como indicadores, y su utilidad marca varios aspectos vitales en las organizaciones, entre los cuales se tienen: 
+        |Lo anterior debido a que su contexto es cambiante y, además, ponderar la productividad y el impacto es y debe ser su objetivo día a día; por ende, #[b el enfoque del aumento de los resultados siempre debe ser la prioridad]; así, los métodos de medición son comúnmente conocidos como indicadores, y su utilidad marca varios aspectos vitales en las organizaciones, entre los cuales se tienen: 
       img.col-xl-5.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0(src="@/assets/curso/temas/tema5/img-4.jpg" style="max-width: 497px")
 
     img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema5/img-5.svg")
@@ -176,7 +181,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nCUYv5oPwJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Ahora bien, comprendiendo el criterio general de los indicadores, surgen preguntas: ¿cómo se pueden crear este tipo de herramientas de medición?, ¿cuáles pasos se deben seguir?, etc. Para dar respuesta a esos interrogantes, en el siguiente recurso de aprendizaje se podrán encontrar algunos elementos que son vitales para crear los indicadores en una empresa, independientemente del sector al cual pertenezca.
 
@@ -258,7 +263,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_5_5 5.5 Análisis de datos
     
-    p.mb-5 Se debe tener en cuenta que para evaluar el resultado de cualquier desempeño, la medición de indicadores o el comparativo de variables de representaciones gráficas o de las tablas de datos obtenidas de una información gestionada, se puede dar aplicando los mecanismos y técnicas que conlleven a la interpretación objetiva e integral de los resultados, debiéndose incluir en el análisis:
+    p.mb-5 Se debe tener en cuenta que para #[b evaluar el resultado] de cualquier desempeño, #[b la medición de indicadores o el comparativo de variables de representaciones gráficas o de las tablas] de datos obtenidas de una información gestionada, se puede dar aplicando los mecanismos y técnicas que conlleven a #[b la interpretación objetiva e integral de los resultados, debiéndose incluir en el análisis]:
 
     .d-flex.flex-wrap.align-items-center.mx-auto.mb-5(style="background-color: #E1F3D7; border-top-right-radius: 112px")
       img.d-none.d-xl-flex.col-xl-1.mt-auto(src="@/assets/curso/temas/tema5/decorador.svg" style="max-width: 82px")
@@ -293,7 +298,7 @@
             <svg style="max-width: 15px; margin-top: .3rem" xmlns="http://www.w3.org/2000/svg" width="16.372" height="16.373" viewBox="0 0 16.372 16.373">
               <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M16.935,8.749A8.186,8.186,0,1,1,8.749.563,8.186,8.186,0,0,1,16.935,8.749ZM7.8,13.083,13.875,7.01a.528.528,0,0,0,0-.747l-.747-.747a.528.528,0,0,0-.747,0L7.428,10.469,5.116,8.156a.528.528,0,0,0-.747,0L3.622,8.9a.528.528,0,0,0,0,.747l3.433,3.433a.528.528,0,0,0,.747,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
             </svg>
-            p.mb-0.ps-3 La pertinencia, entre muchas otras
+            p.mb-0.ps-3 La pertinencia, entre muchas otras.
         p Partiendo de los datos se elabora un concepto completo con la información los que, entre muchas características, deben estar fortalecidos por cada uno de los componentes de análisis mencionados con anterioridad y que le permitan a la empresa o al cliente tomar decisiones claras que transformen la organización. Se debe tener en cuenta para estos ejercicios, los elementos que se muestran a continuación y que permitirán potenciar su análisis.
       img.col-xl-4.mb-4.mb-xl-0.ms-auto.mb-auto(src="@/assets/curso/temas/tema5/img-8.svg" data-aos="fade-right" style="max-width: 408px")
     p.mb-5.fw-bold Elementos determinantes para el análisis  de datos - CAC

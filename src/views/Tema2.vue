@@ -24,9 +24,8 @@
               h3.mb-2 La estadística, su historia y evolución
               p.text-small Con el ánimo de que pueda comprender de manera integral la estadística, su historia y evolución, se sugiere revise el siguiente video:
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/COMPUESTO_133303.xlsx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+              a.boton.color-acento-botones.texto-negro(href="https://www.youtube.com/watch?v=-NutZ7n-Exg" target="_blank")
+                span Ver video
 
     Separador
 
@@ -48,13 +47,13 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.text-center(style="color: black") El primer criterio para tener en cuenta es la selección correcta de la población a estudiar, porque según esto podrá hacer una delimitación objetiva, permitiendo organizar los datos requeridos para el estudio; es de tener en cuenta que hay poblaciones con datos infinitos o finitos.
+              p.text-center(style="color: black") El primer criterio para tener en cuenta es la #[b selección correcta de la población a estudiar], porque según esto podrá hacer una delimitación objetiva, permitiendo organizar los datos requeridos para el estudio; es de tener en cuenta que hay poblaciones con datos infinitos o finitos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-3.jpg')})`}")
       .col-lg-6.px-2.mb-4
         .tarjeta.tarjeta-slide.arriba.color-primario.d-flex.align-items-center(style="aspect-ratio: 40/49; border-radius: 6px; background-color: #FED5B1")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.text-center(style="color: black") El segundo criterio que permitirá ubicar de manera correcta los datos a ser estudiados, es la ubicación cronológica, no es lo mismo estudiar una población determinada en diferentes momentos, por que entran a ponderar variables externas que influyen en los análisis estadísticos que se deseen adelantar. 
+              p.text-center(style="color: black") El segundo criterio que permitirá #[b ubicar de manera correcta los datos a ser estudiados], es la ubicación cronológica, no es lo mismo estudiar una población determinada en diferentes momentos, por que entran a ponderar variables externas que influyen en los análisis estadísticos que se deseen adelantar. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-4.jpg')})`}")
     
     Separador
@@ -100,26 +99,26 @@
       img(src="@/assets/curso/temas/tema2/contract.svg" style="max-width: 136px; width: 136px" data-aos="fade-right")
       p.mb-0.ps-md-3 Siendo el muestro un mecanismo que selecciona y delimita la recolección de los datos, ya que se puede realizar en menor tiempo y también permite el estudio poblaciones muy grandes.
 
-    p.mb-5 Para hallar el tamaño de muestra estadísticamente se desarrollan métodos, por lo cual es importante identificar el nivel de confianza, siendo este grado de certeza o probabilidad expresado en porcentajes con el que se pretende realizar la estimación de un parámetro a través de un estadístico muestral “fórmula”.
+    p.mb-5 Para hallar el tamaño de muestra estadísticamente se desarrollan métodos, por lo cual es importante identificar #[b el nivel de confianza], siendo este #[b grado de certeza o probabilidad expresado en porcentajes] con el que se pretende realizar la estimación de un parámetro a través de un estadístico muestral “fórmula”.
       br
       br
-      |Por otro lado, una cosa muy importante es que el nivel de confianza lo determina el investigador, este es el grado de certeza que se requiere en la investigación, ligado el margen de error, que es la estimación máxima aceptada de equivocación en el resultado analizado en una investigación.
+      |Por otro lado, una cosa muy importante es que #[b el nivel de confianza lo determina el investigador], este es el grado de certeza que se requiere en la investigación, ligado el margen de error, #[b que es la estimación máxima aceptada de equivocación] en el resultado analizado en una investigación.
       br
       br
       |Para aprender más sobre el tema, veremos el siguiente video.
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5VK7hvyj760" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_2_4 2.4 Parámetros estadísticos
 
-    p.mb-5 Para la definición de este concepto es vital comprender que, mediante este mecanismo, se puede dar lectura, interpretación y síntesis a los datos que sean objeto de estudio, por lo cual se distribuyen los parámetros en tres grandes componentes que, de acuerdo con las denominaciones estadísticas, se subdividen en los siguientes conceptos:
+    p.mb-5 Para la definición de este concepto es vital comprender que, mediante este mecanismo, se puede dar #[b lectura, interpretación y síntesis a los datos que sean objeto de estudio], por lo cual se distribuyen los parámetros en tres grandes componentes que, de acuerdo con las denominaciones estadísticas, se subdividen en los siguientes conceptos:
     
     .d-flex
-      h3.titulo-tercero.py-2.px-4(style="background-color: #FFC28D") I. Según su procedencia de capital
+      h3.titulo-tercero.py-2.px-4(style="background-color: #FFC28D") I. Parámetros de centralización
 
     p.mb-5 Indican en torno a qué valor o criterio central se distribuyen los datos obtenidos, para lo cual se establecen tres criterios que se podrán conocer a continuación:
 
@@ -139,20 +138,20 @@
       .col-lg-3.px-md-2.mx-auto.mb-4
         .tarjeta.p-4.py-lg-5(style="background-color: #FED5B1")
           img.mx-auto.mb-4(src='@/assets/curso/temas/tema2/10.svg' style="max-width: 100px")
-          h4.text-center.mb-4.mx-auto(style="background-color: white; border-radius: 20px") Percentiles
-          p.text-center División de una serie de datos en 100 partes iguales.
+          h4.text-center.mb-4.mx-auto(style="background-color: white; border-radius: 20px") Deciles
+          p.text-center División de una serie de datos en 10 partes iguales.
       
       .col-lg-3.px-md-2.mx-auto.mb-4
         .tarjeta.p-4.py-lg-5(style="background-color: #FEEFBF")
           img.mx-auto.mb-4(src='@/assets/curso/temas/tema2/5.svg' style="max-width: 100px")
-          h4.text-center.mb-4.mx-auto(style="background-color: white; border-radius: 20px") Percentiles
-          p.text-center División de una serie de datos en 100 partes iguales.
+          h4.text-center.mb-4.mx-auto(style="background-color: white; border-radius: 20px") Quintiles
+          p.text-center División de una serie de datos en cinco partes iguales.
       
       .col-lg-3.px-md-2.mx-auto.mb-4
         .tarjeta.p-4.py-lg-5(style="background-color: #F6FBD1")
           img.mx-auto.mb-4(src='@/assets/curso/temas/tema2/4.svg' style="max-width: 100px")
-          h4.text-center.mb-4.mx-auto(style="background-color: white; border-radius: 20px") Percentiles
-          p.text-center División de una serie de datos en 100 partes iguales.
+          h4.text-center.mb-4.mx-auto(style="background-color: white; border-radius: 20px") Cuartiles
+          p.text-center División de una serie de datos en cuatro partes iguales.
     
     .d-flex
       h3.titulo-tercero.py-2.px-4(style="background-color: #FFC28D") III. Parámetros de dispersión
