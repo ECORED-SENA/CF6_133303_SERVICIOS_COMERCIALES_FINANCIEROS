@@ -42,18 +42,18 @@
     p.mb-5 Para definir una población se debe tener en cuenta las características que terminan siendo determinantes para el desarrollo de la investigación, y que se listan a continuación:
 
     .col-xl-8.d-flex.flex-wrap.mx-auto.mb-5
-      .col-lg-6.px-2.mb-4
+      .col-md-6.px-2.mb-4
         .tarjeta.tarjeta-slide.arriba.color-primario.d-flex.align-items-center(@mouseover="indicadorTarjetaSlide = false" style="aspect-ratio: 40/49; border-radius: 6px; background-color: #FED5B1")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.text-center(style="color: black") El primer criterio para tener en cuenta es la #[b selección correcta de la población a estudiar], porque según esto podrá hacer una delimitación objetiva, permitiendo organizar los datos requeridos para el estudio; es de tener en cuenta que hay poblaciones con datos infinitos o finitos.
+              p.text-center(style="color: black") El primer criterio para tener en cuenta es la #[b(style="color: black") selección correcta de la población a estudiar], porque según esto podrá hacer una delimitación objetiva, permitiendo organizar los datos requeridos para el estudio; es de tener en cuenta que hay poblaciones con datos infinitos o finitos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-3.jpg')})`}")
-      .col-lg-6.px-2.mb-4
+      .col-md-6.px-2.mb-4
         .tarjeta.tarjeta-slide.arriba.color-primario.d-flex.align-items-center(style="aspect-ratio: 40/49; border-radius: 6px; background-color: #FED5B1")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.text-center(style="color: black") El segundo criterio que permitirá #[b ubicar de manera correcta los datos a ser estudiados], es la ubicación cronológica, no es lo mismo estudiar una población determinada en diferentes momentos, por que entran a ponderar variables externas que influyen en los análisis estadísticos que se deseen adelantar. 
+              p.text-center(style="color: black") El segundo criterio que permitirá #[b(style="color: black") ubicar de manera correcta los datos a ser estudiados], es la ubicación cronológica, no es lo mismo estudiar una población determinada en diferentes momentos, por que entran a ponderar variables externas que influyen en los análisis estadísticos que se deseen adelantar. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-4.jpg')})`}")
     
     Separador
@@ -90,13 +90,25 @@
 
     p.mb-5 Buscando cómo llegar de manera correcta al tamaño de muestra, que busca encontrar esa porción-parte-subconjunto de datos del universo o población que haya sido seleccionada, se deben establecer mecanismos para la reducción de costos en diferentes recursos, como los son:
 
-    .d-flex.flex-wrap.mb-5.col-xl-9.mx-auto
-      img.px-2.mb-4.col-md-4(src='@/assets/curso/temas/tema2/img-8.svg')
-      img.px-2.mb-4.col-md-4(src='@/assets/curso/temas/tema2/img-9.svg')
-      img.px-2.mb-4.col-md-4(src='@/assets/curso/temas/tema2/img-10.svg')
+    .d-flex.flex-wrap.col-xl-9.mx-auto
+      .tarjeta-imagen-texto.px-2.col-12.col-md-4.mb-5
+        .content-img(style="background-color: #FDAB64")
+          img(src='@/assets/curso/temas/tema2/img-8.svg')
+        .content-text(style="background-color: #FED5B1")
+          h4.px-2.mb-0 Económicos
+      .tarjeta-imagen-texto.px-2.col-12.col-md-4.mb-5
+        .content-img(style="background-color: #85D161")
+          img(src='@/assets/curso/temas/tema2/img-9.svg')
+        .content-text(style="background-color: #E1F3D7")
+          h4.px-2.mb-0 Mano de obra
+      .tarjeta-imagen-texto.px-2.col-12.col-md-4.mb-5
+        .content-img(style="background-color: #FDE07E")
+          img(src='@/assets/curso/temas/tema2/img-10.svg')
+        .content-text(style="background-color: #FEEFBF")
+          h4.px-2.mb-0 Materiales, entre otros
 
     .cajon.color-acento-contenido.p-4.mb-4.d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5
-      img(src="@/assets/curso/temas/tema2/contract.svg" style="max-width: 136px; width: 136px" data-aos="fade-right")
+      img(src="@/assets/curso/temas/tema2/contract.svg" style="max-width: 91px; width: 91px" data-aos="fade-right")
       p.mb-0.ps-md-3 Siendo el muestro un mecanismo que selecciona y delimita la recolección de los datos, ya que se puede realizar en menor tiempo y también permite el estudio poblaciones muy grandes.
 
     p.mb-5 Para hallar el tamaño de muestra estadísticamente se desarrollan métodos, por lo cual es importante identificar #[b el nivel de confianza], siendo este #[b grado de certeza o probabilidad expresado en porcentajes] con el que se pretende realizar la estimación de un parámetro a través de un estadístico muestral “fórmula”.
@@ -177,6 +189,9 @@
     
     p.mb-5 A modo de conclusión, en la siguiente figura se muestran todos los parámetros estadísticos mencionados con anterioridad para sintetizar la información de forma global:
 
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1
+      span Tipos de parámetros estadísticos
     img(src='@/assets/curso/temas/tema2/img-11.svg')
 </template>
 
@@ -220,4 +235,21 @@ export default {
 <style lang="sass">
 .slyder-d__content
   width: 100%
+.tarjeta-imagen-texto
+  .content-img
+    display: flex
+    justify-content: center
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+    img
+      margin-top: -2.6rem
+      max-width: 144px
+  .content-text
+    text-align: center
+    border-bottom-left-radius: 5px
+    border-bottom-right-radius: 5px
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 100px
 </style>

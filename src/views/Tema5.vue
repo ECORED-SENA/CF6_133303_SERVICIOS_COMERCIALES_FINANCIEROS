@@ -16,7 +16,9 @@
       h2#t_5_1 5.1 Variables
     
     p.mb-5 Como se describió anteriormente, las variables están determinadas como variables cuantitativas que pueden ser discretas o continuas y las variables cualitativas, las que a su vez se subdividen en nominales u ordinales y que se pueden ver con claridad en la figura 3 con sus subdivisiones.
-
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 3
+      span Tipos de variables
     img.mb-5(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-right")
 
     .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #EDF8A4" data-aos="fade")
@@ -175,8 +177,38 @@
         |Lo anterior debido a que su contexto es cambiante y, además, ponderar la productividad y el impacto es y debe ser su objetivo día a día; por ende, #[b el enfoque del aumento de los resultados siempre debe ser la prioridad]; así, los métodos de medición son comúnmente conocidos como indicadores, y su utilidad marca varios aspectos vitales en las organizaciones, entre los cuales se tienen: 
       img.col-xl-5.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0(src="@/assets/curso/temas/tema5/img-4.jpg" style="max-width: 497px")
 
-    img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema5/img-5.svg")
-    img.mb-5(src="@/assets/curso/temas/tema5/img-6.svg")
+    .container-img-edit-v3.col-xl-10.mx-auto.mb-5
+      img(src="@/assets/curso/temas/tema5/img-5.png" style="max-width: 231px" data-aos="fade-right")
+      .container-img-edit-v3-container.col-lg(data-aos="fade-left")
+        ul.lista-ul--color.mb-4(data-aos="fade-left")
+          li.d-flex.mb-0
+            <svg style="max-width: 15px; margin-top: .3rem" xmlns="http://www.w3.org/2000/svg" width="16.372" height="16.373" viewBox="0 0 16.372 16.373">
+              <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M16.935,8.749A8.186,8.186,0,1,1,8.749.563,8.186,8.186,0,0,1,16.935,8.749ZM7.8,13.083,13.875,7.01a.528.528,0,0,0,0-.747l-.747-.747a.528.528,0,0,0-.747,0L7.428,10.469,5.116,8.156a.528.528,0,0,0-.747,0L3.622,8.9a.528.528,0,0,0,0,.747l3.433,3.433a.528.528,0,0,0,.747,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
+            </svg>
+            p.mb-0.ps-3 Tomar decisiones en todos los niveles.
+          li.d-flex.mb-0
+            <svg style="max-width: 15px; margin-top: .3rem" xmlns="http://www.w3.org/2000/svg" width="16.372" height="16.373" viewBox="0 0 16.372 16.373">
+              <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M16.935,8.749A8.186,8.186,0,1,1,8.749.563,8.186,8.186,0,0,1,16.935,8.749ZM7.8,13.083,13.875,7.01a.528.528,0,0,0,0-.747l-.747-.747a.528.528,0,0,0-.747,0L7.428,10.469,5.116,8.156a.528.528,0,0,0-.747,0L3.622,8.9a.528.528,0,0,0,0,.747l3.433,3.433a.528.528,0,0,0,.747,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
+            </svg>
+            p.mb-0.ps-3 Medir el desempeño de procesos y de personas.
+          li.d-flex.mb-0
+            <svg style="max-width: 15px; margin-top: .3rem" xmlns="http://www.w3.org/2000/svg" width="16.372" height="16.373" viewBox="0 0 16.372 16.373">
+              <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M16.935,8.749A8.186,8.186,0,1,1,8.749.563,8.186,8.186,0,0,1,16.935,8.749ZM7.8,13.083,13.875,7.01a.528.528,0,0,0,0-.747l-.747-.747a.528.528,0,0,0-.747,0L7.428,10.469,5.116,8.156a.528.528,0,0,0-.747,0L3.622,8.9a.528.528,0,0,0,0,.747l3.433,3.433a.528.528,0,0,0,.747,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
+            </svg>
+            p.mb-0.ps-3 Comparar y hacer seguimiento de la gestión.
+          li.d-flex.mb-0
+            <svg style="max-width: 15px; margin-top: .3rem" xmlns="http://www.w3.org/2000/svg" width="16.372" height="16.373" viewBox="0 0 16.372 16.373">
+              <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M16.935,8.749A8.186,8.186,0,1,1,8.749.563,8.186,8.186,0,0,1,16.935,8.749ZM7.8,13.083,13.875,7.01a.528.528,0,0,0,0-.747l-.747-.747a.528.528,0,0,0-.747,0L7.428,10.469,5.116,8.156a.528.528,0,0,0-.747,0L3.622,8.9a.528.528,0,0,0,0,.747l3.433,3.433a.528.528,0,0,0,.747,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
+            </svg>
+            p.mb-0.ps-3 Medir la eficacia, la eficiencia y la efectividad de la entidad o la empresa.
+        p Teniendo en cuenta la pertinencia e importancia de la medición, es necesario abordar los tipos de indicadores y las características que deben contener estos elementos de medición que se describen en la siguiente figura.
+
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 4
+      span Tipos y características de indicadores
+    img.mb-1(src="@/assets/curso/temas/tema5/img-6.svg")
+    p.mb-5.px-3.py-2(style="background-color: #E8E8E8") Nota. Tomada de tic.portal.
     p.mb-5 Como parte de su aprendizaje, se invita a revisar el video Interpretación de indicadores de gestión  que le ayudará a afianzar sus conocimientos. 
 
     figure.mb-5(data-aos="fade-left")
@@ -185,7 +217,7 @@
 
     p.mb-5 Ahora bien, comprendiendo el criterio general de los indicadores, surgen preguntas: ¿cómo se pueden crear este tipo de herramientas de medición?, ¿cuáles pasos se deben seguir?, etc. Para dar respuesta a esos interrogantes, en el siguiente recurso de aprendizaje se podrán encontrar algunos elementos que son vitales para crear los indicadores en una empresa, independientemente del sector al cual pertenezca.
 
-    PasosA.pasos-edit.color-primario.mb-5.mb-5(tipo="l")
+    PasosA.pasos-edit.color-primario.mb-5.mb-5.col-xl-10.mx-auto(tipo="l")
       .row(data-aos="fade-left")
         .col-md-2
           figure
@@ -352,4 +384,23 @@ export default {
         border: none
       .slyder-a__bullets__item--active
         background-color: #FC8116
+.container-img-edit-v3
+  display: flex
+  flex-wrap: wrap
+  img
+    margin-right: -160px
+    position: relative
+    margin-top: auto
+    margin-bottom: auto
+  .container-img-edit-v3-container
+    background-color: #FFEAD8
+    border-top-left-radius: 109px
+    padding: 2rem
+    padding-left: 200px
+  @media (max-width: 991px)
+    img
+      margin-right: auto
+      margin-left: auto
+    .container-img-edit-v3-container
+      padding-left: 2rem
 </style>
