@@ -21,38 +21,41 @@
     
     p.mb-5 De acuerdo con la procedencia de su capital, las empresas en Colombia se clasifican en tres categorías: públicas, privadas o mixtas. Como se puede ver, la procedencia del capital es vital para la constitución de una empresa, por lo que a continuación se presenta un recurso donde podrá clarificar el tema:
 
-    .d-flex.flex-wrap.col-xl-10.mx-auto.mb-5
-      .col-md-6.col-lg-4.px-2.mb-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false" style="aspect-ratio: 29/31; border-radius: 6px; background-color: #FDAB64")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-center(style="color: black") Pública
-              p.text-center(style="color: black") Propiedad del Estado.
-                br
-                br
-                |El recurso económico proviene del Estado.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}")
-      .col-md-6.col-lg-4.px-2.mb-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(style="aspect-ratio: 29/31; border-radius: 6px; background-color: #85D161")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-center(style="color: black") Privada
-              p.text-center(style="color: black") Propiedad de particular o una sociedad privada.
-                br
-                br
-                |El recurso económico proviene del capital privado.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-2.jpg')})`}")
-      .col-md-6.col-lg-4.px-2.mb-4
-        .tarjeta.tarjeta-slide.arriba.color-primario(style="aspect-ratio: 29/31; border-radius: 6px; background-color: #E3F56C")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4.text-center(style="color: black") Mixta
-              p.text-center(style="color: black") Propiedad compartida.
-                br
-                br
-                |El recurso proviene del capital público y privado.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-3.jpg')})`}")
+    .row.mb-5
+      .col-lg-4.mb-3
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img-1.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.bg--2-claro.p-4(style="background-color:#FDAB64;")
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 Pública
+            p.text-center Propiedad del Estado. 
+            p.text-center El recurso económico proviene del Estado.
+      .col-lg-4.mb-3
+        .tarjetas-up
+          img(src='@/assets/curso/temas/tema1/img-2.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.bg--2-claro.p-4(style="background-color:#85D161;")
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 Privada
+            p.text-center Propiedad de particular o una sociedad privada.
+            p.text-center El recurso económico proviene del capital privado.
+      .col-lg-4.mb-3
+        .tarjetas-up
+          img(src='@/assets/curso/temas/tema1/img-3.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.bg--2-claro.p-4(style="background-color:#E3F56C;")
+            .title.d-flex.align-items-center.mb-4
+              span.c--4
+                i.fas.fa-caret-up.fa-2x.color-primario.me-3
+                i.fas.fa-caret-down.fa-2x.color-primario.me-3
+              h4.mb-0 Mixta
+            p.text-center Propiedad compartida.
+            p.text-center El recurso proviene del capital público y privado.
 
     .cajon.color-acento-contenido.p-4.mb-4.d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 136px; width: 136px" data-aos="fade-right")
@@ -431,4 +434,25 @@ export default {
     #Grupo_878147
       path
         fill: white
+.tarjetas-up
+  overflow: hidden
+  border-radius: 10px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 10px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -80%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
 </style>

@@ -19,7 +19,8 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 3
       span Tipos de variables
-    img.mb-5(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-right")
+    img(src="@/assets/curso/temas/tema5/img-2.svg" data-aos="fade-right")
+    figcaption.mb-5(style="background-color:#E8E8E8;font-weight:500;") Nota. Tomada de Gómez, A (2018).
 
     .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #EDF8A4" data-aos="fade")
       .row.justify-content-around.align-items-center

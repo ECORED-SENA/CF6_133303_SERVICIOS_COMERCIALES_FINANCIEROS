@@ -173,7 +173,7 @@
     p.mb-5.px-3.py-2(style="background-color: #E8E8E8") Nota. Tomada de Rivera y Fernández (2015).
     p.mb-5 Es importante considerar los siguientes criterios para la selección de la fuente de información adecuada. 
 
-    .d-flex.flex-wrap.align-items-stretch.mb-2.position-relative.py-5(
+    .d-flex.flex-wrap.align-items-stretch.position-relative.py-4(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-2.svg')})`}"
       style="background-repeat: no-repeat;"
     )
