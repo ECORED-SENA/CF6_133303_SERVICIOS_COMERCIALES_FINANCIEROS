@@ -22,7 +22,7 @@
     p.mb-5 De acuerdo con la procedencia de su capital, las empresas en Colombia se clasifican en tres categorías: públicas, privadas o mixtas. Como se puede ver, la procedencia del capital es vital para la constitución de una empresa, por lo que a continuación se presenta un recurso donde podrá clarificar el tema:
 
     .row.mb-5
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema1/img-1.png' alt='AvatarTop' style='width:400px')
@@ -34,7 +34,7 @@
               h4.mb-0 Pública
             p.text-center Propiedad del Estado. 
             p.text-center El recurso económico proviene del Estado.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjetas-up
           img(src='@/assets/curso/temas/tema1/img-2.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4(style="background-color:#85D161;")
@@ -45,7 +45,7 @@
               h4.mb-0 Privada
             p.text-center Propiedad de particular o una sociedad privada.
             p.text-center El recurso económico proviene del capital privado.
-      .col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3
         .tarjetas-up
           img(src='@/assets/curso/temas/tema1/img-3.png' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4(style="background-color:#E3F56C;")
@@ -615,6 +615,9 @@ export default {
   overflow: hidden
   border-radius: 10px
   position: relative
+  width: 400px
+  margin-right: auto
+  margin-left: auto
   &_card
     transition: bottom .3s ease-in-out
     position: absolute
