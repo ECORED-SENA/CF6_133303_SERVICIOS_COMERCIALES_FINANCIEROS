@@ -70,6 +70,13 @@
       br
       br
       |También es indispensable el lugar de operaciones para la clasificación de una empresa, por lo que es vital conocer algunos elementos que se deben tener en cuenta, los que se podrán conocer a través de la siguiente historia:
+    .tarjeta.tarjeta--azul.bg3.p-1.mb-5(data-aos="fade-right")
+      SlyderA(tipo="b")
+        DialogoChat.color-secundario(:dialogo="dialogoChat")  
+        DialogoChat.color-secundario(:dialogo="dialogoChat1")  
+        DialogoChat.color-secundario(:dialogo="dialogoChat2")
+        DialogoChat.color-secundario(:dialogo="dialogoChat3")        
+
 
     figure.mb-5(data-aos="fade-left")
       .video
@@ -402,11 +409,190 @@
 </template>
 
 <script>
+import DialogoChat from '../components/DialogoChat.vue'
+
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    DialogoChat,
+  },
   data: () => ({
     indicadorTarjetaSlide: true,
+    dialogoChat: {
+      personajes: [
+        {
+          nombre: 'Federico',
+          img: require('@/assets/curso/temas/tema1/a1.png'),
+        },
+        {
+          nombre: 'Teresa',
+          img: require('@/assets/curso/temas/tema1/a2.png'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Federico',
+          textoIng:
+            'Caramba no encuentro la información que necesito entregar el próximo lunes Voy a visitar a Teresa que vive cerca de mi casa, a ver si ella ha logrado conseguir algo…  Hola Teresa, qué pena molestarte en casa, pero,  además de visitarte quería consultarte algo del curso del SENA',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng:
+            'Sí, Federico, no hay problema, para eso somos compañeros y vivimos cerca',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng:
+            'Gracias, Teresa… es que no encontré información sobre los tipos de empresa',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng:
+            'Listo… yo pude ingresar a la Biblioteca del SENA y allí fue fácil… te la recomiendo',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: 'Listo… voy a aprender a usarla… gracias',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng:
+            'Bien…en relación con los tipos de empresas te puedo contar lo que',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+      ],
+    },
+    dialogoChat1: {
+      personajes: [
+        {
+          nombre: 'Teresa',
+          img: require('@/assets/curso/temas/tema1/a2.png'),
+        },
+        {
+          nombre: 'Federico',
+          img: require('@/assets/curso/temas/tema1/a1.png'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Teresa',
+          textoIng:
+            '… según su tipo de operación se pueden encontrar las siguientes...',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: '...',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng: 'Locales',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: 'Medellin, Cali y Bogotá',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng: 'Regionales',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: 'Antioquia, Santander, Cundinamarca, Amazonas',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+      ],
+    },
+    dialogoChat2: {
+      personajes: [
+        {
+          nombre: 'Teresa',
+          img: require('@/assets/curso/temas/tema1/a2.png'),
+        },
+        {
+          nombre: 'Federico',
+          img: require('@/assets/curso/temas/tema1/a1.png'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Teresa',
+          textoIng: 'Nacionales',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: 'En cualquier parte de Colombia.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng: 'Multinacionales',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: 'Colombia, América, Asia, Europa, África, Oceanía',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+      ],
+    },
+    dialogoChat3: {
+      personajes: [
+        {
+          nombre: 'Federico',
+          img: require('@/assets/curso/temas/tema1/a1.png'),
+        },
+        {
+          nombre: 'Teresa',
+          img: require('@/assets/curso/temas/tema1/a2.png'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Federico',
+          textoIng:
+            'Ya, veo… son cuatro en total…voy a ir a la biblioteca distrital para buscar información',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng:
+            'Si, claro. También te puedo enseñar a usar la biblioteca del SENA cuando quieras',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng:
+            'Perfecto, voy a verificar si me sirven los códigos de acceso y hablamos…',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng: 'Listo… nos vemos…',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Federico',
+          textoIng: 'Gracias… Teresa.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Teresa',
+          textoIng: 'De nada…',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+      ],
+    },
   }),
   mounted() {
     this.$nextTick(() => {
