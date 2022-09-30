@@ -75,12 +75,7 @@
         DialogoChat.color-secundario(:dialogo="dialogoChat")  
         DialogoChat.color-secundario(:dialogo="dialogoChat1")  
         DialogoChat.color-secundario(:dialogo="dialogoChat2")
-        DialogoChat.color-secundario(:dialogo="dialogoChat3")        
-
-
-    figure.mb-5(data-aos="fade-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/fmsSsN5NDNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        DialogoChat.color-secundario(:dialogo="dialogoChat3")
     
     .cajon.color-primario.p-4.mb-4.d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 136px; width: 136px" data-aos="fade-right")
@@ -400,11 +395,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/xhTb3dSFR2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
-
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fmsSsN5NDNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
