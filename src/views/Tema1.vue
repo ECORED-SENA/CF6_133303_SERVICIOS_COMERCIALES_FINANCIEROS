@@ -615,7 +615,7 @@ export default {
   overflow: hidden
   border-radius: 10px
   position: relative
-  width: 400px
+  max-width: 400px
   margin-right: auto
   margin-left: auto
   &_card
