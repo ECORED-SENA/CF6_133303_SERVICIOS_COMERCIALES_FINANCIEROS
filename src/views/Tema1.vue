@@ -433,7 +433,7 @@ export default {
         {
           personaje: 'Federico',
           textoIng:
-            'Caramba no encuentro la información que necesito entregar el próximo lunes Voy a visitar a Teresa que vive cerca de mi casa, a ver si ella ha logrado conseguir algo…  Hola Teresa, qué pena molestarte en casa, pero,  además de visitarte quería consultarte algo del curso del SENA',
+            'Caramba no encuentro la información que necesito entregar el próximo lunes voy a visitar a Teresa que vive cerca de mi casa, a ver si ella ha logrado conseguir algo…  Hola Teresa, qué pena molestarte en casa, pero,  además de visitarte quería consultarte algo del curso del SENA',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
         {
@@ -561,7 +561,7 @@ export default {
         {
           personaje: 'Federico',
           textoIng:
-            'Ya, veo… son cuatro en total…voy a ir a la biblioteca distrital para buscar información',
+            'Ya, veo… son cuatro en total… voy a ir a la biblioteca distrital para buscar información',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
         {
