@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 3
-      h1 Fuentes y técnicas de recolección de información
+      h1 Fuentes y técnicas de recolección de la información
     
     p.mb-5 La obtención de la información es vital para la objetividad y desarrollo científico de una investigación y los mecanismos que la proveen se han denominado fuentes de información que, estadísticamente, se han catalogado bajo varios conceptos, pero los que tradicionalmente se han conocido son las fuentes primarias, secundarias y terciarias, las cuales se describen en el siguiente video:
 
@@ -20,7 +20,7 @@
     
     .d-flex.flex-wrap.align-items-center.mb-5
       img.col-xl-5.mb-4.mx-auto.mb-xl-0(src="@/assets/curso/temas/tema3/img-1.jpg")
-      p.col-xl-7.ps-xl-4 La obtención de la información es vital para la objetividad y desarrollo científico de una investigación y los mecanismos que la proveen se han denominado fuentes de información que, estadísticamente, se han catalogado bajo varios conceptos, pero los que tradicionalmente se han conocido son las fuentes primarias, secundarias y terciarias, las cuales se describen en el siguPara definir lo que corresponde a una fuente de información, es importante apoyarse en el concepto que exponen Rivera y Fernández (2015), donde indica que es todo aquello que proporciona datos para reconstruir hechos y las bases del conocimiento, por ende, las fuentes de información son instrumentos para el conocimiento, la búsqueda y el acceso de a la información
+      p.col-xl-7.ps-xl-4 Para definir lo que corresponde a una fuente de información, es importante apoyarse en el concepto que exponen Rivera y Fernández (2015), donde indica que es todo aquello que proporciona datos para reconstruir hechos y las bases del conocimiento, por ende, las fuentes de información son instrumentos para el conocimiento, la búsqueda y el acceso de a la información.
         br
         br
         |Para identificar las principales fuentes de información se recopilan los diferentes tipos de fuentes que serán de apoyo al investigador para la focalización de la información, como se muestra en la siguiente figura.
@@ -52,17 +52,17 @@
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
                   <path id="Icon_awesome-pen-nib" data-name="Icon awesome-pen-nib" d="M4.2,4.268A1.968,1.968,0,0,0,2.869,5.54L0,14.147l.452.452L5.068,9.982a1.49,1.49,0,1,1,.7.7L1.147,15.294l.452.452,8.607-2.869a1.968,1.968,0,0,0,1.272-1.332l1.316-4.656L8.857,2.952ZM15.314,2.281,13.465.432a1.477,1.477,0,0,0-2.088,0L9.637,2.171l3.937,3.937,1.739-1.739a1.477,1.477,0,0,0,0-2.088Z" transform="translate(0 0)" fill="#12263f"/>
                 </svg>
-                p.mb-0.ps-3 Centros de investigación privadas o del estado.
+                p.mb-0.ps-3 Centros de investigación privada o del estado.
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
                   <path id="Icon_awesome-pen-nib" data-name="Icon awesome-pen-nib" d="M4.2,4.268A1.968,1.968,0,0,0,2.869,5.54L0,14.147l.452.452L5.068,9.982a1.49,1.49,0,1,1,.7.7L1.147,15.294l.452.452,8.607-2.869a1.968,1.968,0,0,0,1.272-1.332l1.316-4.656L8.857,2.952ZM15.314,2.281,13.465.432a1.477,1.477,0,0,0-2.088,0L9.637,2.171l3.937,3.937,1.739-1.739a1.477,1.477,0,0,0,0-2.088Z" transform="translate(0 0)" fill="#12263f"/>
                 </svg>
-                p.mb-0.ps-3 Centros de investigación mixtas.
+                p.mb-0.ps-3 Centros de investigación mixta.
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
                   <path id="Icon_awesome-pen-nib" data-name="Icon awesome-pen-nib" d="M4.2,4.268A1.968,1.968,0,0,0,2.869,5.54L0,14.147l.452.452L5.068,9.982a1.49,1.49,0,1,1,.7.7L1.147,15.294l.452.452,8.607-2.869a1.968,1.968,0,0,0,1.272-1.332l1.316-4.656L8.857,2.952ZM15.314,2.281,13.465.432a1.477,1.477,0,0,0-2.088,0L9.637,2.171l3.937,3.937,1.739-1.739a1.477,1.477,0,0,0,0-2.088Z" transform="translate(0 0)" fill="#12263f"/>
                 </svg>
-                p.mb-0.ps-3 Centros de investigación colaborativas e interinstitucionales y multidisciplinares.
+                p.mb-0.ps-3 Centros de investigación colaborativa e interinstitucionale y multidisciplinare.
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
                   <path id="Icon_awesome-pen-nib" data-name="Icon awesome-pen-nib" d="M4.2,4.268A1.968,1.968,0,0,0,2.869,5.54L0,14.147l.452.452L5.068,9.982a1.49,1.49,0,1,1,.7.7L1.147,15.294l.452.452,8.607-2.869a1.968,1.968,0,0,0,1.272-1.332l1.316-4.656L8.857,2.952ZM15.314,2.281,13.465.432a1.477,1.477,0,0,0-2.088,0L9.637,2.171l3.937,3.937,1.739-1.739a1.477,1.477,0,0,0,0-2.088Z" transform="translate(0 0)" fill="#12263f"/>
@@ -231,7 +231,7 @@
         .tarjeta.d-flex.flex-wrap.p-4(titulo="Tamaño" style="background-color: #E1F3D7")
           .col-xl-7.pe-xl-4
             h4 El tamaño de la población o muestra
-            p Se deben articular los resultados de las población, muestreo y determinación de la muestra, porque teniendo claridad de estos datos, tendremos una visual de la magnitud de los instrumentos requeridos y cuál técnica será la más favorable para el levantamiento, tratamiento y análisis de la información. 
+            p Se deben articular los resultados de la población, muestreo y determinación de la muestra, porque teniendo claridad de estos datos, tendremos una visual de la magnitud de los instrumentos requeridos y cuál técnica será la más favorable para el levantamiento, tratamiento y análisis de la información. 
           Zoom(
             lente="200" 
             :baja-resolucion="require('@/assets/curso/temas/tema3/sl-3.svg')" 
@@ -262,7 +262,7 @@
         .tarjeta.d-flex.flex-wrap.p-4(titulo="Tipo y naturaleza" style="background-color: #E1F3D7")
           .col-xl-7.pe-xl-4
             h4 Tipo y naturaleza de la fuente de datos
-            p Verifique las fuentes de información, acá es importante evaluar de dónde vamos a obtener la información, lo cual nos permitirá focalizar los  recursos y las técnicas correctas que se vayan aplicar.
+            p Verifique las fuentes de información, acá es importante evaluar de dónde vamos a obtener la información, lo cual nos permitirá focalizar los  recursos y las técnicas correctas que se vayan a aplicar.
           img.col-xl-5(src='@/assets/curso/temas/tema3/sl-6.png' data-aos="fade-right")
     p.mb-5 Una vez analizadas las características para la selección correcta de las técnicas para la recolección de la información, se orienta al aprendiz en las siguientes técnicas que permitirán recolectar la información bajo métodos prácticos, los que le permitirán realizar los análisis de información en los diferentes modelos estadísticos que se describen enseguida.
 
@@ -336,10 +336,10 @@
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-xl-4.pe-xl-3
           h4 Observación no experimental
-          p Con frecuencia se usa está técnica para profundizar en el conocimiento del comportamiento de exploración. Por ejemplo: en una investigación exploratoria se ha encontrado que los clientes de una empresa no están conformes con el tiempo que deben esperar para ser atendidos.
+          p Con frecuencia se usa esta técnica para profundizar en el conocimiento del comportamiento de exploración. Por ejemplo: en una investigación exploratoria se ha encontrado que los clientes de una empresa no están conformes con el tiempo que deben esperar para ser atendidos.
             br
             br
-            |En este caso se puede planear la recolección de datos sobre los tiempos de espera y de servicio de una muestra representativa de clientes. como instrumento se puede usar una guía de observación o de campo.
+            |En este caso se puede planear la recolección de datos sobre los tiempos de espera y de servicio de una muestra representativa de clientes. Como instrumento se puede usar una guía de observación o de campo.
         img.col-xl-8(src='@/assets/curso/temas/tema3/img-9.png')
       
       .d-flex.flex-wrap.col-xl-11.mx-auto

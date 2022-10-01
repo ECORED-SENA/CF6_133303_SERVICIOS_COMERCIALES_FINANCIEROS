@@ -58,7 +58,7 @@
           img.mx-auto.mb-4(src="@/assets/curso/temas/tema5/sl-3.svg" style="max-width: 130px")
           h4.text-center.mb-2.mx-auto.py-2(style="background-color: white; border-radius: 20px") Frecuencia relativa
         .p-5.w-100(style="background-color: #FED5B1; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
-          p Se obtiene de la división del numero de la frecuencia absoluta de una variable y la cantidad total de los datos.
+          p Se obtiene de la división del número de la frecuencia absoluta de una variable y la cantidad total de los datos.
       
       .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #DBF5CC")
         .p-4.w-100.mb-auto(style="background-color: #85D161; border-top-right-radius: 15px; border-top-left-radius: 15px;")
@@ -82,7 +82,7 @@
         .col.pe-xl-5
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 Como parte de su aprendizaje, en la sección de materiales complementarios un video sobre se presenta el video Tablas de frecuencia | Ejemplo 1 que le permitirá afianzar su conocimiento sobre el tema visto en el componente formativo.
+              p.mb-0 Como parte de su aprendizaje, en la sección de materiales complementarios se presenta el video Tablas de frecuencia | Ejemplo 1 que le permitirá afianzar su conocimiento sobre el tema visto en el componente formativo.
     
     Separador
 

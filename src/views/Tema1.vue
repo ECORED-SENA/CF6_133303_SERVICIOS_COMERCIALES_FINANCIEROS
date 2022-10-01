@@ -260,7 +260,7 @@
         .col.ps-lg-5
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p Para conocer más sobre el Decreto 957 de 2019. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015. Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.” Le invito a revisar el siguiente documento: 
+              p Para conocer más sobre el Decreto 957 de 2019. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015. Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011. Le invito a revisar el siguiente documento: 
             .col-sm-auto
               a.boton.color-acento-botones.texto-negro(href="https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf" target="_blank")
                 span Descargar
@@ -305,7 +305,7 @@
         data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 …las políticas y reglas deben ser coherentes entre sí, ya que al interactuar constantemente emiten directrices y cualquier cambio afecta la gestión operacional; es decir, la implementación en los diferentes procesos y procedimientos; por estas situaciones, las reglas y políticas deben ser lógicas, flexibles, buscando proporcionar una guía para la toma de decisiones y la planeación de futuros lineamientos, también deben de proporcionar una orientación para la toma de decisiones, como también reflejar el entorno interno y externo de una organización.
+        p.mb-0 … Las políticas y reglas deben ser coherentes entre sí, ya que al interactuar constantemente emiten directrices y cualquier cambio afecta la gestión operacional; es decir, la implementación en los diferentes procesos y procedimientos; por estas situaciones, las reglas y políticas deben ser lógicas, flexibles, buscando proporcionar una guía para la toma de decisiones y la planeación de futuros lineamientos, también deben de proporcionar una orientación para la toma de decisiones, como también reflejar el entorno interno y externo de una organización.
 
     Separador
 
@@ -347,7 +347,7 @@
           p Para lograr la cultura organizacional es vital incluirla en todas las comunicaciones internas posibles, mostrando, cómo es ser parte del cambio, dando ejemplo a los demás y cómo se hace este en el día a día, motivando a otros de manera permanente… 
             br
             br
-            |#[em #[b “…hasta formar un inconsciente colectivo, es decir una cultura organizacional de gestión del cambio”.]]
+            |#[em #[b “… hasta formar un inconsciente colectivo, es decir una cultura organizacional de gestión del cambio”.]]
       
         .col-md-5
           figure
@@ -374,7 +374,7 @@
             img(src='@/assets/curso/temas/tema1/a-6.png')
       .row.col-xl-11.mx-auto(titulo="Construir sobre el cambio")
         .col-md-7.mb-4.mb-md-0
-          p También es indispensable no declarar la victoria, sólo se han ganado pequeñas batallas y no la guerra, se requiere seguir creciendo con proyectos de mayor envergadura y mayor valor para la organización, mejorando incansablemente el proceso, sí lo logramos ya no habrá vuelta atrás.
+          p También es indispensable no declarar la victoria, solo se han ganado pequeñas batallas y no la guerra, se requiere seguir creciendo con proyectos de mayor envergadura y mayor valor para la organización, mejorando incansablemente el proceso, sí lo logramos ya no habrá vuelta atrás.
             br
             br
             |Integrar en el inconsciente colectivo el principio de gestión del cambio y transformar la cultura organizacional se ha logrado, pero,  debe continuar con el proceso de forma permanente principalmente porque el concepto de mejora continua es un comportamiento de aprendizaje social y se refuerza por medio de la educación y desarrollando un proceso cultural.
@@ -424,7 +424,7 @@ export default {
         {
           personaje: 'Federico',
           textoIng:
-            'Caramba no encuentro la información que necesito entregar el próximo lunes voy a visitar a Teresa que vive cerca de mi casa, a ver si ella ha logrado conseguir algo…  Hola Teresa, qué pena molestarte en casa, pero,  además de visitarte quería consultarte algo del curso del SENA',
+            'Caramba, no encuentro la información que necesito entregar el próximo lunes, voy a visitar a Teresa que vive cerca de mi casa, a ver si ella ha logrado conseguir algo…  Hola Teresa, qué pena molestarte en casa, pero,  además de visitarte quería consultarte algo del curso del SENA',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
         {
@@ -453,7 +453,7 @@ export default {
         {
           personaje: 'Teresa',
           textoIng:
-            'Bien…en relación con los tipos de empresas te puedo contar lo que',
+            'Bien… en relación con los tipos de empresas te puedo contar lo que...',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
       ],
@@ -473,7 +473,7 @@ export default {
         {
           personaje: 'Teresa',
           textoIng:
-            '… según su tipo de operación se pueden encontrar las siguientes...',
+            '… Según su tipo de operación se pueden encontrar las siguientes...',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
         {
@@ -488,7 +488,7 @@ export default {
         },
         {
           personaje: 'Federico',
-          textoIng: 'Medellin, Cali y Bogotá',
+          textoIng: 'Medellín, Cali y Bogotá',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
         {

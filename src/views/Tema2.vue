@@ -53,7 +53,7 @@
         .tarjeta.tarjeta-slide.arriba.color-primario.d-flex.align-items-center(style="aspect-ratio: 40/49; border-radius: 6px; background-color: #FED5B1")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              p.text-center(style="color: black") El segundo criterio que permitirá #[b(style="color: black") ubicar de manera correcta los datos a ser estudiados], es la ubicación cronológica, no es lo mismo estudiar una población determinada en diferentes momentos, por que entran a ponderar variables externas que influyen en los análisis estadísticos que se deseen adelantar. 
+              p.text-center(style="color: black") El segundo criterio que permitirá #[b(style="color: black") ubicar de manera correcta los datos a ser estudiados], es la ubicación cronológica, no es lo mismo estudiar una población determinada en diferentes momentos, porque entran a ponderar variables externas que influyen en los análisis estadísticos que se deseen adelantar. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-4.jpg')})`}")
     
     Separador
@@ -74,7 +74,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img-6.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul(style="background-color: #C2E8B0;")
-            p.mb-0.p-2.py-xl-3 La manera cómo van a seleccionar los casos (participantes, eventos, episodios, organizaciones, productos, etc).
+            p.mb-0.p-2.py-xl-3 La manera como van a seleccionar los casos (participantes, eventos, episodios, organizaciones, productos, etc.).
       .col-md-6.px-2
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
