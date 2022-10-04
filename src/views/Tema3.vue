@@ -62,7 +62,7 @@
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
                   <path id="Icon_awesome-pen-nib" data-name="Icon awesome-pen-nib" d="M4.2,4.268A1.968,1.968,0,0,0,2.869,5.54L0,14.147l.452.452L5.068,9.982a1.49,1.49,0,1,1,.7.7L1.147,15.294l.452.452,8.607-2.869a1.968,1.968,0,0,0,1.272-1.332l1.316-4.656L8.857,2.952ZM15.314,2.281,13.465.432a1.477,1.477,0,0,0-2.088,0L9.637,2.171l3.937,3.937,1.739-1.739a1.477,1.477,0,0,0,0-2.088Z" transform="translate(0 0)" fill="#12263f"/>
                 </svg>
-                p.mb-0.ps-3 Centros de investigación colaborativa e interinstitucionale y multidisciplinare.
+                p.mb-0.ps-3 Centros de investigación colaborativa e interinstitucional y multidisciplinar.
               li.d-flex
                 <svg style="max-width: 15px; margin-top: .4rem" xmlns="http://www.w3.org/2000/svg" width="15.746" height="15.746" viewBox="0 0 15.746 15.746">
                   <path id="Icon_awesome-pen-nib" data-name="Icon awesome-pen-nib" d="M4.2,4.268A1.968,1.968,0,0,0,2.869,5.54L0,14.147l.452.452L5.068,9.982a1.49,1.49,0,1,1,.7.7L1.147,15.294l.452.452,8.607-2.869a1.968,1.968,0,0,0,1.272-1.332l1.316-4.656L8.857,2.952ZM15.314,2.281,13.465.432a1.477,1.477,0,0,0-2.088,0L9.637,2.171l3.937,3.937,1.739-1.739a1.477,1.477,0,0,0,0-2.088Z" transform="translate(0 0)" fill="#12263f"/>
