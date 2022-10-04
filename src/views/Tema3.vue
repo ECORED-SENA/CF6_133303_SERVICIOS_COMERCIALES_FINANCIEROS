@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 3
-      h1 Fuentes y técnicas de recolección de la información
+      h1 Fuentes y técnicas de recolección de información
     
     p.mb-5 La obtención de la información es vital para la objetividad y desarrollo científico de una investigación y los mecanismos que la proveen se han denominado fuentes de información que, estadísticamente, se han catalogado bajo varios conceptos, pero los que tradicionalmente se han conocido son las fuentes primarias, secundarias y terciarias, las cuales se describen en el siguiente video:
 

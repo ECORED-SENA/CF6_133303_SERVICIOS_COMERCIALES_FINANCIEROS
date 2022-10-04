@@ -110,7 +110,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fuentes y técnicas de recolección de la información',
+        titulo: 'Fuentes y técnicas de recolección de información',
         desarrolloContenidos: true,
         subMenu: [
           {
