@@ -21,8 +21,8 @@
     
     p.mb-5 De acuerdo con la procedencia de su capital, las empresas en Colombia se clasifican en tres categorías: públicas, privadas o mixtas. Como se puede ver, la procedencia del capital es vital para la constitución de una empresa, por lo que a continuación se presenta un recurso donde podrá clarificar el tema:
 
-    .row.mb-5
-      .col-md-6.col-lg-4.mb-3
+    .row.justify-content-center.mb-5
+      .col-md-10.col-lg-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema1/img-1.png' alt='AvatarTop' style='width:400px')
